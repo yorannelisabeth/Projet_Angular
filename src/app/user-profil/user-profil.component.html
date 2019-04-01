@@ -1,0 +1,9 @@
+<div>Name : {{user.nom}}</div>
+<p>First name: {{user.firstName}}</p>
+<p [style.visibility]="label">Age: {{user.age}}</p>
+<button mat-button (click)="onClickButton()">voir l'age</button>
+  
+<p>Quote: {{user.quote}}</p>
+<p><input [(ngModel)]="user.quote" placeholder="{{user.quote}}" /></p>
+<div>Picture : <span><img [src]="user.picture" [alt]="Photo"/></span></div>
+
