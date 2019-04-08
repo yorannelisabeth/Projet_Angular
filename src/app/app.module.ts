@@ -6,13 +6,17 @@ import { AppComponent } from './app.component';
 import { IdCardComponent } from './id-card/id-card.component';
 import { SignUpComponent } from './sign-up/sign-up.component';
 import { UserProfilComponent } from './user-profil/user-profil.component';
+import { HighlightDirective } from './highlight.directive';
+import { DisplayGuestsDirective } from './display-guests.directive';
 
 @NgModule({
   declarations: [
     AppComponent,
     IdCardComponent,
     SignUpComponent,
-    UserProfilComponent
+    UserProfilComponent,
+    HighlightDirective,
+    DisplayGuestsDirective
   ],
   imports: [
     BrowserModule,
