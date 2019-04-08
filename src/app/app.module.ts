@@ -8,6 +8,10 @@ import { SignUpComponent } from './sign-up/sign-up.component';
 import { UserProfilComponent } from './user-profil/user-profil.component';
 import { HighlightDirective } from './highlight.directive';
 import { DisplayGuestsDirective } from './display-guests.directive';
+import { RouterModule } from '@angular/router';
+import { ROUTES } from './app.routes';
+
+
 
 @NgModule({
   declarations: [
@@ -22,6 +26,7 @@ import { DisplayGuestsDirective } from './display-guests.directive';
     BrowserModule,
     AppRoutingModule,
     FormsModule,
+    RouterModule.forRoot(ROUTES)
   ],
   providers: [],
   bootstrap: [AppComponent]
