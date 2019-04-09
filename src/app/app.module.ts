@@ -10,6 +10,7 @@ import { HighlightDirective } from './highlight.directive';
 import { DisplayGuestsDirective } from './display-guests.directive';
 import { RouterModule } from '@angular/router';
 import { ROUTES } from './app.routes';
+import { MenuComponent } from './menu/menu.component';
 
 
 
@@ -20,7 +21,8 @@ import { ROUTES } from './app.routes';
     SignUpComponent,
     UserProfilComponent,
     HighlightDirective,
-    DisplayGuestsDirective
+    DisplayGuestsDirective,
+    MenuComponent
   ],
   imports: [
     BrowserModule,

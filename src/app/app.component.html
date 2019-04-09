@@ -1,16 +1,8 @@
 <h1 appHighlight>Welcome to {{title}}</h1>
 
 
-<ul>
-    <li>
-      <a [routerLink]="['/user-profil']">user-profil</a>
-    </li>
-    <li>
-      <a [routerLink]="['/sign-up']">sign-up</a>
-    </li>
-  </ul>
 
-
+<app-menu></app-menu>
 
 <ul *appDisplayGuests="displayGuestList">
 <li appHighlight >les oiseaux le ciel et ta mère</li>
@@ -22,5 +14,6 @@
 
 <router-outlet></router-outlet>
 
-<app-user-profil></app-user-profil>
+
+
 

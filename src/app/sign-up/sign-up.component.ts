@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { emaildesgens } from './email';
-import { from } from 'rxjs';
+
 
 @Component({
   selector: 'app-sign-up',
