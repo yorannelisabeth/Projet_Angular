@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { emaildesgens } from './email';
+
 
 
 @Component({
@@ -8,12 +8,22 @@ import { emaildesgens } from './email';
   styleUrls: ['./sign-up.component.css']
 })
 export class SignUpComponent implements OnInit {
-email: emaildesgens = {
-  mail:'ici votre adresse mail',
-}
+
+
+
+model:Order = new Order();
+
+
   constructor() { }
 
   ngOnInit() {
   }
+  onSubmit() {
+    console.log()
+  }
 
+}
+export class Order {
+  user: string;
+  contact: string;
 }
